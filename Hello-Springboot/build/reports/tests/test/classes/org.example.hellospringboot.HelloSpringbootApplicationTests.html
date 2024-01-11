@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - HelloSpringbootApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>HelloSpringbootApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.example.hellospringboot.html">org.example.hellospringboot</a> &gt; HelloSpringbootApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.876s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.876s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>16:07:38.392 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.hellospringboot.HelloSpringbootApplicationTests]: HelloSpringbootApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:07:38.498 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.hellospringboot.HelloSpringbootApplication for test class org.example.hellospringboot.HelloSpringbootApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2024-01-11T16:07:38.867+09:00  INFO 29104 --- [    Test worker] o.e.h.HelloSpringbootApplicationTests    : Starting HelloSpringbootApplicationTests using Java 21.0.1 with PID 29104 (started by 이유빈 in C:\fcjava\Hello-Springboot)
+2024-01-11T16:07:38.869+09:00  INFO 29104 --- [    Test worker] o.e.h.HelloSpringbootApplicationTests    : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-01-11T16:07:39.879+09:00  WARN 29104 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-01-11T16:07:39.906+09:00  INFO 29104 --- [    Test worker] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-01-11T16:07:40.431+09:00  INFO 29104 --- [    Test worker] o.e.h.HelloSpringbootApplicationTests    : Started HelloSpringbootApplicationTests in 1.75 seconds (process running for 2.997)
+{&quot;name&quot;:&quot;홍길동&quot;,&quot;user_age&quot;:20,&quot;email&quot;:&quot;hong@gmail.com&quot;,&quot;is_korean&quot;:true}
+UserRequest(name=홍길동, userAge=20, email=hong@gmail.com, isKorean=true)
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>WARNING: A Java agent has been loaded dynamically (C:\Users\??\º?\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.10\90ed94ac044ea8953b224304c762316e91fd6b31\byte-buddy-agent-1.14.10.ja)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.5</a> at 2024. 1. 11. 오후 4:07:41</p>
+</div>
+</div>
+</body>
+</html>

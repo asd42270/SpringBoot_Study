@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.hellospringboot.HelloSpringbootApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-11T07:07:40" hostname="DESKTOP-8LPN3O4" time="0.876">
+  <properties/>
+  <testcase name="contextLoads()" classname="org.example.hellospringboot.HelloSpringbootApplicationTests" time="0.876"/>
+  <system-out><![CDATA[16:07:38.392 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.hellospringboot.HelloSpringbootApplicationTests]: HelloSpringbootApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:07:38.498 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.hellospringboot.HelloSpringbootApplication for test class org.example.hellospringboot.HelloSpringbootApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2024-01-11T16:07:38.867+09:00  INFO 29104 --- [    Test worker] o.e.h.HelloSpringbootApplicationTests    : Starting HelloSpringbootApplicationTests using Java 21.0.1 with PID 29104 (started by 이유빈 in C:\fcjava\Hello-Springboot)
+2024-01-11T16:07:38.869+09:00  INFO 29104 --- [    Test worker] o.e.h.HelloSpringbootApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-01-11T16:07:39.879+09:00  WARN 29104 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-01-11T16:07:39.906+09:00  INFO 29104 --- [    Test worker] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-01-11T16:07:40.431+09:00  INFO 29104 --- [    Test worker] o.e.h.HelloSpringbootApplicationTests    : Started HelloSpringbootApplicationTests in 1.75 seconds (process running for 2.997)
+{"name":"홍길동","user_age":20,"email":"hong@gmail.com","is_korean":true}
+UserRequest(name=홍길동, userAge=20, email=hong@gmail.com, isKorean=true)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\??\º?\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.10\90ed94ac044ea8953b224304c762316e91fd6b31\byte-buddy-agent-1.14.10.ja)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
