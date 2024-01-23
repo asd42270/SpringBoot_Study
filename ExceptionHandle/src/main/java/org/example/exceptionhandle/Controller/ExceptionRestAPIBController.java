@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RestController
-@RequestMapping(path = "/api/b")
+//@RequestMapping(path = "/api/b")
 public class ExceptionRestAPIBController {
 
     @GetMapping("/hello")
